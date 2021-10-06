@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Schweif</title>
+</head>
+
+<body>
+    <div id="snakeField">
+        <% for( let i = 0; i < 100; i++ ) { %>
+        <% for( let j = 0; j < 300; j++ ) { %>
+        <!-- <div class="item" onmouseover="onMouseOver(this)"></div> -->
+        <div class="item" onmouseenter="onMouseEnter(this)" onmouseleave="onMouseLeave(this)"></div>
+        <% } %>
+        <% } %>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
